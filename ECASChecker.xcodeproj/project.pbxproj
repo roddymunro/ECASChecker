@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7912B04F261281CA00C60509 /* StatusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B04E261281CA00C60509 /* StatusError.swift */; };
+		7912B050261281CA00C60509 /* StatusError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B04E261281CA00C60509 /* StatusError.swift */; };
+		7912B05426128A5C00C60509 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B05326128A5C00C60509 /* Country.swift */; };
+		7912B05526128A5C00C60509 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B05326128A5C00C60509 /* Country.swift */; };
+		7912B05B26128C0100C60509 /* FormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B05A26128C0100C60509 /* FormFields.swift */; };
+		7912B0682612920000C60509 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7912B0672612920000C60509 /* StoreKit.framework */; };
+		7912B06A2612938300C60509 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0692612938300C60509 /* View+Ext.swift */; };
+		7912B06E2612974D00C60509 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B06D2612974D00C60509 /* ErrorModel.swift */; };
+		7912B06F2612974D00C60509 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B06D2612974D00C60509 /* ErrorModel.swift */; };
+		7912B07326129B1200C60509 /* NewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B07226129B1200C60509 /* NewFeature.swift */; };
+		7912B07726129B1D00C60509 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B07626129B1C00C60509 /* WelcomeView.swift */; };
+		7912B07D26129BA200C60509 /* Text+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B07C26129BA200C60509 /* Text+ViewModifier.swift */; };
+		7912B08126129C1D00C60509 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B08026129C1D00C60509 /* PrimaryButtonStyle.swift */; };
+		7912B0852612A05900C60509 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0842612A05900C60509 /* Date+Ext.swift */; };
+		7912B0892612A6A700C60509 /* IdentificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0882612A6A700C60509 /* IdentificationType.swift */; };
+		79598B3026125D77004833C0 /* ECASCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B2F26125D77004833C0 /* ECASCheckerApp.swift */; };
+		79598B3226125D77004833C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3126125D77004833C0 /* ContentView.swift */; };
+		79598B3426125D7A004833C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598B3326125D7A004833C0 /* Assets.xcassets */; };
+		79598B3726125D7A004833C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598B3626125D7A004833C0 /* Preview Assets.xcassets */; };
+		79598B402612600A004833C0 /* EcasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3F2612600A004833C0 /* EcasAPI.swift */; };
+		79598B472612622C004833C0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 79598B462612622C004833C0 /* SwiftSoup */; };
+		79598B4A26126F23004833C0 /* ApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* ApplicationStatus.swift */; };
+		79598B542612701F004833C0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79598B532612701F004833C0 /* WidgetKit.framework */; };
+		79598B562612701F004833C0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79598B552612701F004833C0 /* SwiftUI.framework */; };
+		79598B592612701F004833C0 /* ECASCheckerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B582612701F004833C0 /* ECASCheckerWidget.swift */; };
+		79598B5B26127021004833C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598B5A26127021004833C0 /* Assets.xcassets */; };
+		79598B5F26127021004833C0 /* ECASCheckerWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79598B6726127049004833C0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 79598B6626127049004833C0 /* SwiftSoup */; };
+		79598B6926127057004833C0 /* EcasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3F2612600A004833C0 /* EcasAPI.swift */; };
+		79598B6C2612705A004833C0 /* ApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* ApplicationStatus.swift */; };
+		798C3EC126140364007BCE2F /* IdentificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0882612A6A700C60509 /* IdentificationType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79598B5D26127021004833C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79598B2426125D77004833C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79598B502612701F004833C0;
+			remoteInfo = ECASCheckerWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79598B6326127021004833C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79598B5F26127021004833C0 /* ECASCheckerWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7912B048261274A700C60509 /* ECASCheckerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ECASCheckerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		7912B04B261274B900C60509 /* ECASChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ECASChecker.entitlements; sourceTree = "<group>"; };
+		7912B04E261281CA00C60509 /* StatusError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusError.swift; sourceTree = "<group>"; };
+		7912B05326128A5C00C60509 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		7912B05A26128C0100C60509 /* FormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFields.swift; sourceTree = "<group>"; };
+		7912B0672612920000C60509 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7912B0692612938300C60509 /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		7912B06D2612974D00C60509 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		7912B07226129B1200C60509 /* NewFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeature.swift; sourceTree = "<group>"; };
+		7912B07626129B1C00C60509 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7912B07C26129BA200C60509 /* Text+ViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text+ViewModifier.swift"; sourceTree = "<group>"; };
+		7912B08026129C1D00C60509 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		7912B0842612A05900C60509 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		7912B0882612A6A700C60509 /* IdentificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationType.swift; sourceTree = "<group>"; };
+		79598B2C26125D77004833C0 /* ECASChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECASChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79598B2F26125D77004833C0 /* ECASCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECASCheckerApp.swift; sourceTree = "<group>"; };
+		79598B3126125D77004833C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79598B3326125D7A004833C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79598B3626125D7A004833C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79598B3826125D7A004833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79598B3F2612600A004833C0 /* EcasAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcasAPI.swift; sourceTree = "<group>"; };
+		79598B4926126F23004833C0 /* ApplicationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStatus.swift; sourceTree = "<group>"; };
+		79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ECASCheckerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		79598B532612701F004833C0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		79598B552612701F004833C0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		79598B582612701F004833C0 /* ECASCheckerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECASCheckerWidget.swift; sourceTree = "<group>"; };
+		79598B5A26127021004833C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79598B5C26127021004833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79598B2926125D77004833C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79598B472612622C004833C0 /* SwiftSoup in Frameworks */,
+				7912B0682612920000C60509 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79598B4E2612701F004833C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79598B562612701F004833C0 /* SwiftUI.framework in Frameworks */,
+				79598B542612701F004833C0 /* WidgetKit.framework in Frameworks */,
+				79598B6726127049004833C0 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79598B2326125D77004833C0 = {
+			isa = PBXGroup;
+			children = (
+				7912B048261274A700C60509 /* ECASCheckerWidgetExtension.entitlements */,
+				79598B6826127051004833C0 /* Shared */,
+				79598B2E26125D77004833C0 /* ECASChecker */,
+				79598B572612701F004833C0 /* ECASCheckerWidget */,
+				79598B522612701F004833C0 /* Frameworks */,
+				79598B2D26125D77004833C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79598B2D26125D77004833C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79598B2C26125D77004833C0 /* ECASChecker.app */,
+				79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79598B2E26125D77004833C0 /* ECASChecker */ = {
+			isa = PBXGroup;
+			children = (
+				7912B04B261274B900C60509 /* ECASChecker.entitlements */,
+				79598B2F26125D77004833C0 /* ECASCheckerApp.swift */,
+				798C3EC626140393007BCE2F /* Extensions */,
+				798C3EC526140383007BCE2F /* Models */,
+				798C3EC42614036F007BCE2F /* Views */,
+				79598B3326125D7A004833C0 /* Assets.xcassets */,
+				79598B3826125D7A004833C0 /* Info.plist */,
+				79598B3526125D7A004833C0 /* Preview Content */,
+			);
+			path = ECASChecker;
+			sourceTree = "<group>";
+		};
+		79598B3526125D7A004833C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79598B3626125D7A004833C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79598B522612701F004833C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7912B0672612920000C60509 /* StoreKit.framework */,
+				79598B532612701F004833C0 /* WidgetKit.framework */,
+				79598B552612701F004833C0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79598B572612701F004833C0 /* ECASCheckerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				79598B582612701F004833C0 /* ECASCheckerWidget.swift */,
+				79598B5A26127021004833C0 /* Assets.xcassets */,
+				79598B5C26127021004833C0 /* Info.plist */,
+			);
+			path = ECASCheckerWidget;
+			sourceTree = "<group>";
+		};
+		79598B6826127051004833C0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				798C3EC026140356007BCE2F /* Errors */,
+				798C3EBF2614034C007BCE2F /* Extensions */,
+				798C3EBE26140340007BCE2F /* Models */,
+				79598B3F2612600A004833C0 /* EcasAPI.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		798C3EBE26140340007BCE2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79598B4926126F23004833C0 /* ApplicationStatus.swift */,
+				7912B05326128A5C00C60509 /* Country.swift */,
+				7912B06D2612974D00C60509 /* ErrorModel.swift */,
+				7912B0882612A6A700C60509 /* IdentificationType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		798C3EBF2614034C007BCE2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7912B0842612A05900C60509 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		798C3EC026140356007BCE2F /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7912B04E261281CA00C60509 /* StatusError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		798C3EC42614036F007BCE2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				798C3ECC261403B7007BCE2F /* Components */,
+				798C3ECF261403C1007BCE2F /* ViewModifiers */,
+				79598B3126125D77004833C0 /* ContentView.swift */,
+				7912B07626129B1C00C60509 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		798C3EC526140383007BCE2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7912B07226129B1200C60509 /* NewFeature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		798C3EC626140393007BCE2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7912B0692612938300C60509 /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		798C3ECC261403B7007BCE2F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7912B05A26128C0100C60509 /* FormFields.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		798C3ECF261403C1007BCE2F /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				7912B08026129C1D00C60509 /* PrimaryButtonStyle.swift */,
+				7912B07C26129BA200C60509 /* Text+ViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79598B2B26125D77004833C0 /* ECASChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79598B3B26125D7A004833C0 /* Build configuration list for PBXNativeTarget "ECASChecker" */;
+			buildPhases = (
+				79598B2826125D77004833C0 /* Sources */,
+				79598B2926125D77004833C0 /* Frameworks */,
+				79598B2A26125D77004833C0 /* Resources */,
+				79598B6326127021004833C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79598B5E26127021004833C0 /* PBXTargetDependency */,
+			);
+			name = ECASChecker;
+			packageProductDependencies = (
+				79598B462612622C004833C0 /* SwiftSoup */,
+			);
+			productName = ECASChecker;
+			productReference = 79598B2C26125D77004833C0 /* ECASChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79598B502612701F004833C0 /* ECASCheckerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79598B6026127021004833C0 /* Build configuration list for PBXNativeTarget "ECASCheckerWidgetExtension" */;
+			buildPhases = (
+				79598B4D2612701F004833C0 /* Sources */,
+				79598B4E2612701F004833C0 /* Frameworks */,
+				79598B4F2612701F004833C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECASCheckerWidgetExtension;
+			packageProductDependencies = (
+				79598B6626127049004833C0 /* SwiftSoup */,
+			);
+			productName = ECASCheckerWidgetExtension;
+			productReference = 79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79598B2426125D77004833C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					79598B2B26125D77004833C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					79598B502612701F004833C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 79598B2726125D77004833C0 /* Build configuration list for PBXProject "ECASChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79598B2326125D77004833C0;
+			packageReferences = (
+				79598B452612622C004833C0 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 79598B2D26125D77004833C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79598B2B26125D77004833C0 /* ECASChecker */,
+				79598B502612701F004833C0 /* ECASCheckerWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79598B2A26125D77004833C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79598B3726125D7A004833C0 /* Preview Assets.xcassets in Resources */,
+				79598B3426125D7A004833C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79598B4F2612701F004833C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79598B5B26127021004833C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79598B2826125D77004833C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7912B08126129C1D00C60509 /* PrimaryButtonStyle.swift in Sources */,
+				7912B07D26129BA200C60509 /* Text+ViewModifier.swift in Sources */,
+				7912B07726129B1D00C60509 /* WelcomeView.swift in Sources */,
+				7912B06E2612974D00C60509 /* ErrorModel.swift in Sources */,
+				79598B3226125D77004833C0 /* ContentView.swift in Sources */,
+				7912B06A2612938300C60509 /* View+Ext.swift in Sources */,
+				79598B402612600A004833C0 /* EcasAPI.swift in Sources */,
+				79598B3026125D77004833C0 /* ECASCheckerApp.swift in Sources */,
+				7912B0852612A05900C60509 /* Date+Ext.swift in Sources */,
+				7912B05B26128C0100C60509 /* FormFields.swift in Sources */,
+				7912B07326129B1200C60509 /* NewFeature.swift in Sources */,
+				7912B04F261281CA00C60509 /* StatusError.swift in Sources */,
+				7912B05426128A5C00C60509 /* Country.swift in Sources */,
+				79598B4A26126F23004833C0 /* ApplicationStatus.swift in Sources */,
+				7912B0892612A6A700C60509 /* IdentificationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79598B4D2612701F004833C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7912B06F2612974D00C60509 /* ErrorModel.swift in Sources */,
+				79598B6926127057004833C0 /* EcasAPI.swift in Sources */,
+				79598B6C2612705A004833C0 /* ApplicationStatus.swift in Sources */,
+				7912B050261281CA00C60509 /* StatusError.swift in Sources */,
+				798C3EC126140364007BCE2F /* IdentificationType.swift in Sources */,
+				7912B05526128A5C00C60509 /* Country.swift in Sources */,
+				79598B592612701F004833C0 /* ECASCheckerWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79598B5E26127021004833C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79598B502612701F004833C0 /* ECASCheckerWidgetExtension */;
+			targetProxy = 79598B5D26127021004833C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79598B3926125D7A004833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79598B3A26125D7A004833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79598B3C26125D7A004833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ECASChecker/ECASChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"ECASChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ECASChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79598B3D26125D7A004833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ECASChecker/ECASChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"ECASChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ECASChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79598B6126127021004833C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ECASCheckerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = ECASCheckerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker.ECASCheckerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79598B6226127021004833C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ECASCheckerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = K59VZ37S54;
+				INFOPLIST_FILE = ECASCheckerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker.ECASCheckerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79598B2726125D77004833C0 /* Build configuration list for PBXProject "ECASChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79598B3926125D7A004833C0 /* Debug */,
+				79598B3A26125D7A004833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79598B3B26125D7A004833C0 /* Build configuration list for PBXNativeTarget "ECASChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79598B3C26125D7A004833C0 /* Debug */,
+				79598B3D26125D7A004833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79598B6026127021004833C0 /* Build configuration list for PBXNativeTarget "ECASCheckerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79598B6126127021004833C0 /* Debug */,
+				79598B6226127021004833C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79598B452612622C004833C0 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79598B462612622C004833C0 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79598B452612622C004833C0 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		79598B6626127049004833C0 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79598B452612622C004833C0 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79598B2426125D77004833C0 /* Project object */;
+}
