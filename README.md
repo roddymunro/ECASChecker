@@ -5,7 +5,7 @@ This app was originally intended for the App Store, however it was rejected, so 
 
 If this app is useful to you, I'd appreciate a shoutout on [Twitter](https://www.twitter.com/podomunro), or you can [tip me](https://www.paypal.com/paypalme/roddym23).
 
-## Contributions
+## Contributions
 
 Please feel free to open a pull request and extend the app. It is not guaranteed that this will work for all ECAS applications - as an applicant for Permanent Residency via the Family Sponsorship route, I am only able to test using my own application!
 
