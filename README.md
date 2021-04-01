@@ -5,6 +5,15 @@ This app was originally intended for the App Store, however it was rejected, so 
 
 If this app is useful to you, I'd appreciate a shoutout on [Twitter](https://www.twitter.com/podomunro), or you can [tip me](https://www.paypal.com/paypalme/roddym23).
 
+## Installation
+
+To install the app to your iOS device:
+1. On your Mac, download the app from [here](https://mypublicbucket-podomunro.s3.us-east-2.amazonaws.com/github/ECASChecker.ipa)
+2. Plug your iOS device into your Mac using a USB cable
+3. Inside Finder or inside 'Devices & Simulators' in Xcode, drag the download .ipa file to your phone
+4. Once installed on your phone, open 'Settings' -> 'General' -> 'Profiles & Device Management' and then tap 'Trust Developer' under 'Roderick Munro'
+5. You should be good to go at this point!
+
 ## Contributions
 
 Please feel free to open a pull request and extend the app. It is not guaranteed that this will work for all ECAS applications - as an applicant for Permanent Residency via the Family Sponsorship route, I am only able to test using my own application!
