@@ -67,6 +67,14 @@ struct ECASCheckerWidgetEntryView : View {
                             Text("PR Status").font(Font.caption.weight(.semibold)).foregroundColor(.secondary)
                             Text(status.prStatus).font(Font.body.weight(.medium))
                         }
+                        Divider()
+                        HStack(spacing: 2) {
+                            Text(entry.date, style: .relative)
+                                .font(.caption2)
+                                .multilineTextAlignment(.trailing)
+                            Text("ago")
+                                .font(.caption2)
+                        }
                     }.frame(maxWidth: .infinity, alignment: .leading)
                 case .failure(let error):
                     Text("Error fetching status: \(error.localizedDescription)")

@@ -93,6 +93,7 @@
 		79598B582612701F004833C0 /* ECASCheckerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECASCheckerWidget.swift; sourceTree = "<group>"; };
 		79598B5A26127021004833C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79598B5C26127021004833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C3ED62614067F007BCE2F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		79598B2326125D77004833C0 = {
 			isa = PBXGroup;
 			children = (
+				798C3ED62614067F007BCE2F /* README.md */,
 				7912B048261274A700C60509 /* ECASCheckerWidgetExtension.entitlements */,
 				79598B6826127051004833C0 /* Shared */,
 				79598B2E26125D77004833C0 /* ECASChecker */,
@@ -540,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ECASChecker/ECASChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ECASChecker/Preview Content\"";
 				DEVELOPMENT_TEAM = K59VZ37S54;
 				ENABLE_PREVIEWS = YES;
@@ -565,7 +567,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ECASChecker/ECASChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ECASChecker/Preview Content\"";
 				DEVELOPMENT_TEAM = K59VZ37S54;
 				ENABLE_PREVIEWS = YES;
@@ -589,7 +591,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ECASCheckerWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K59VZ37S54;
 				INFOPLIST_FILE = ECASCheckerWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -612,7 +614,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ECASCheckerWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K59VZ37S54;
 				INFOPLIST_FILE = ECASCheckerWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
