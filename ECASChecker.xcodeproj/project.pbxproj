@@ -22,13 +22,16 @@
 		7912B08126129C1D00C60509 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B08026129C1D00C60509 /* PrimaryButtonStyle.swift */; };
 		7912B0852612A05900C60509 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0842612A05900C60509 /* Date+Ext.swift */; };
 		7912B0892612A6A700C60509 /* IdentificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0882612A6A700C60509 /* IdentificationType.swift */; };
+		792F60C526176673005EAEFD /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F60C426176673005EAEFD /* Status.swift */; };
+		792F60C626176673005EAEFD /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F60C426176673005EAEFD /* Status.swift */; };
+		792F60D826176CF5005EAEFD /* StatusDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F60D726176CF5005EAEFD /* StatusDetailView.swift */; };
 		79598B3026125D77004833C0 /* ECASCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B2F26125D77004833C0 /* ECASCheckerApp.swift */; };
 		79598B3226125D77004833C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3126125D77004833C0 /* ContentView.swift */; };
 		79598B3426125D7A004833C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598B3326125D7A004833C0 /* Assets.xcassets */; };
 		79598B3726125D7A004833C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598B3626125D7A004833C0 /* Preview Assets.xcassets */; };
 		79598B402612600A004833C0 /* EcasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3F2612600A004833C0 /* EcasAPI.swift */; };
 		79598B472612622C004833C0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 79598B462612622C004833C0 /* SwiftSoup */; };
-		79598B4A26126F23004833C0 /* ApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* ApplicationStatus.swift */; };
+		79598B4A26126F23004833C0 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* Application.swift */; };
 		79598B542612701F004833C0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79598B532612701F004833C0 /* WidgetKit.framework */; };
 		79598B562612701F004833C0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79598B552612701F004833C0 /* SwiftUI.framework */; };
 		79598B592612701F004833C0 /* ECASCheckerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B582612701F004833C0 /* ECASCheckerWidget.swift */; };
@@ -36,7 +39,7 @@
 		79598B5F26127021004833C0 /* ECASCheckerWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		79598B6726127049004833C0 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 79598B6626127049004833C0 /* SwiftSoup */; };
 		79598B6926127057004833C0 /* EcasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B3F2612600A004833C0 /* EcasAPI.swift */; };
-		79598B6C2612705A004833C0 /* ApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* ApplicationStatus.swift */; };
+		79598B6C2612705A004833C0 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B4926126F23004833C0 /* Application.swift */; };
 		798C3EC126140364007BCE2F /* IdentificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912B0882612A6A700C60509 /* IdentificationType.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,8 @@
 		7912B08026129C1D00C60509 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		7912B0842612A05900C60509 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		7912B0882612A6A700C60509 /* IdentificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationType.swift; sourceTree = "<group>"; };
+		792F60C426176673005EAEFD /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		792F60D726176CF5005EAEFD /* StatusDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDetailView.swift; sourceTree = "<group>"; };
 		79598B2C26125D77004833C0 /* ECASChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECASChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79598B2F26125D77004833C0 /* ECASCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECASCheckerApp.swift; sourceTree = "<group>"; };
 		79598B3126125D77004833C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,7 +91,7 @@
 		79598B3626125D7A004833C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79598B3826125D7A004833C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79598B3F2612600A004833C0 /* EcasAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcasAPI.swift; sourceTree = "<group>"; };
-		79598B4926126F23004833C0 /* ApplicationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStatus.swift; sourceTree = "<group>"; };
+		79598B4926126F23004833C0 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		79598B512612701F004833C0 /* ECASCheckerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ECASCheckerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		79598B532612701F004833C0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		79598B552612701F004833C0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -198,10 +203,11 @@
 		798C3EBE26140340007BCE2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				79598B4926126F23004833C0 /* ApplicationStatus.swift */,
+				79598B4926126F23004833C0 /* Application.swift */,
 				7912B05326128A5C00C60509 /* Country.swift */,
 				7912B06D2612974D00C60509 /* ErrorModel.swift */,
 				7912B0882612A6A700C60509 /* IdentificationType.swift */,
+				792F60C426176673005EAEFD /* Status.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 				798C3ECC261403B7007BCE2F /* Components */,
 				798C3ECF261403C1007BCE2F /* ViewModifiers */,
 				79598B3126125D77004833C0 /* ContentView.swift */,
+				792F60D726176CF5005EAEFD /* StatusDetailView.swift */,
 				7912B07626129B1C00C60509 /* WelcomeView.swift */,
 			);
 			path = Views;
@@ -378,6 +385,7 @@
 				7912B08126129C1D00C60509 /* PrimaryButtonStyle.swift in Sources */,
 				7912B07D26129BA200C60509 /* Text+ViewModifier.swift in Sources */,
 				7912B07726129B1D00C60509 /* WelcomeView.swift in Sources */,
+				792F60D826176CF5005EAEFD /* StatusDetailView.swift in Sources */,
 				7912B06E2612974D00C60509 /* ErrorModel.swift in Sources */,
 				79598B3226125D77004833C0 /* ContentView.swift in Sources */,
 				7912B06A2612938300C60509 /* View+Ext.swift in Sources */,
@@ -386,9 +394,10 @@
 				7912B0852612A05900C60509 /* Date+Ext.swift in Sources */,
 				7912B05B26128C0100C60509 /* FormFields.swift in Sources */,
 				7912B07326129B1200C60509 /* NewFeature.swift in Sources */,
+				792F60C526176673005EAEFD /* Status.swift in Sources */,
 				7912B04F261281CA00C60509 /* StatusError.swift in Sources */,
 				7912B05426128A5C00C60509 /* Country.swift in Sources */,
-				79598B4A26126F23004833C0 /* ApplicationStatus.swift in Sources */,
+				79598B4A26126F23004833C0 /* Application.swift in Sources */,
 				7912B0892612A6A700C60509 /* IdentificationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +408,8 @@
 			files = (
 				7912B06F2612974D00C60509 /* ErrorModel.swift in Sources */,
 				79598B6926127057004833C0 /* EcasAPI.swift in Sources */,
-				79598B6C2612705A004833C0 /* ApplicationStatus.swift in Sources */,
+				79598B6C2612705A004833C0 /* Application.swift in Sources */,
+				792F60C626176673005EAEFD /* Status.swift in Sources */,
 				7912B050261281CA00C60509 /* StatusError.swift in Sources */,
 				798C3EC126140364007BCE2F /* IdentificationType.swift in Sources */,
 				7912B05526128A5C00C60509 /* Country.swift in Sources */,
@@ -554,6 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -579,6 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -602,6 +614,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker.ECASCheckerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -625,6 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roddy.io.ECASChecker.ECASCheckerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

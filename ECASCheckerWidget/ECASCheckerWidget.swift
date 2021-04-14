@@ -11,8 +11,8 @@ import SwiftUI
 struct Provider: TimelineProvider {
     
     let ud = UserDefaults(suiteName: "group.com.roddy.io.ECASChecker")
-    let dummyStatus = ApplicationStatus(name: "Roddy Munro", sponsorStatus: "In Process", prStatus: "In Process")
-    let failedStatus = ApplicationStatus(name: "", sponsorStatus: "Not Available", prStatus: "Not Available")
+    let dummyStatus = Application(name: "Roddy Munro", sponsorStatus: .init(status: "In Process"), prStatus: .init(status: "In Process"))
+    let failedStatus = Application(name: "", sponsorStatus: .init(status: "Not Available"), prStatus: .init(status: "Not Available"))
     
     func placeholder(in context: Context) -> SimpleEntry {
         SimpleEntry(date: Date(), status: .success(dummyStatus))
@@ -47,7 +47,7 @@ struct Provider: TimelineProvider {
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
-    let status: Result<ApplicationStatus, Error>
+    let status: Result<Application, Error>
 }
 
 struct ECASCheckerWidgetEntryView : View {
@@ -60,12 +60,12 @@ struct ECASCheckerWidgetEntryView : View {
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
                             Text("Sponsor Status").font(Font.caption.weight(.semibold)).foregroundColor(.secondary)
-                            Text(status.sponsorStatus).font(Font.body.weight(.medium))
+                            Text(status.sponsorStatus.status).font(Font.body.weight(.medium))
                         }
                         Divider()
                         VStack(alignment: .leading) {
                             Text("PR Status").font(Font.caption.weight(.semibold)).foregroundColor(.secondary)
-                            Text(status.prStatus).font(Font.body.weight(.medium))
+                            Text(status.prStatus.status).font(Font.body.weight(.medium))
                         }
                         Divider()
                         HStack(spacing: 2) {

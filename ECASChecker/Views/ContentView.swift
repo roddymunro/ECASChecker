@@ -10,7 +10,7 @@ import StoreKit
 
 struct ContentView: View {
     
-    enum ActiveAlert { case error(_ error: ErrorModel), thankYou }
+    enum ActiveAlert { case error(_ error: ErrorModel) }
     enum ActiveSheet { case welcome }
     
     static let ud = UserDefaults(suiteName: "group.com.roddy.io.ECASChecker")
@@ -22,9 +22,10 @@ struct ContentView: View {
     @AppStorage("birthDate", store: ud) var birthDate: Date = Date()
     @AppStorage("country", store: ud) var country: String = ""
     
-    @State private var appStatus: ApplicationStatus?
+    @State private var appStatus: Application?
     @State private var activeAlert: ActiveAlert?
     @State private var activeSheet: ActiveSheet?
+    @State private var isLoading: Bool = false
     
     var body: some View {
         NavigationView {
@@ -37,8 +38,6 @@ struct ContentView: View {
             switch alert {
                 case .error(let error):
                     return Alert(title: Text(error.title), message: Text(error.message))
-                case .thankYou:
-                    return Alert(title: Text("Thank you for the tip!"))
             }
         }
         .sheet(using: $activeSheet) { sheet in
@@ -68,15 +67,27 @@ struct ContentView: View {
                         Text(country.name).tag(country.id)
                     }
                 }
-                Button("Get Status", action: getStatus)
-                    .font(Font.body.weight(.bold))
+                Button(action: getStatus, label: {
+                    HStack {
+                        Text("Get Status")
+                            .font(Font.body.weight(.bold))
+                        Spacer()
+                        if isLoading {
+                            ProgressView()
+                        }
+                    }
+                })
             }
             
             if let status = appStatus {
                 Section(header: Text("Application Status")) {
                     Text("Name: \(status.name)")
-                    Text("Sponsor Status: \(status.sponsorStatus)")
-                    Text("PR Status: \(status.prStatus)")
+                    NavigationLink(destination: StatusDetailView(status: status.sponsorStatus)) {
+                        Text("Sponsor Status: \(status.sponsorStatus.status)")
+                    }
+                    NavigationLink(destination: StatusDetailView(status: status.prStatus)) {
+                        Text("PR Status: \(status.prStatus.status)")
+                    }
                 }
             }
             
@@ -90,7 +101,9 @@ struct ContentView: View {
     
     private func getStatus() {
         endEditing(true)
+        isLoading = true
         EcasAPI.shared.getStatus(idType: idType, idNum: idNumber, lastName: lastName, birthDate: Self.dateFormatter.string(from: birthDate), country: country) { result in
+            isLoading = false
             switch result {
                 case .success(let status):
                     self.appStatus = status
