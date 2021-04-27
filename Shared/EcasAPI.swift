@@ -40,6 +40,10 @@ class EcasAPI {
             
             if let data = data {
                 if let status = self.parseApplicationStatus(String(data: data, encoding: .utf8) ?? "") {
+                    let encoder = JSONEncoder()
+                    if let encoded = try? encoder.encode(status) {
+                        UserDefaults(suiteName: "group.com.roddy.io.ECASChecker")?.set(encoded, forKey: "prevApp")
+                    }
                     completion(.success(status))
                 } else {
                     completion(.failure(StatusError.applicationParsingError))

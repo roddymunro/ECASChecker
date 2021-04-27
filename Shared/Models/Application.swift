@@ -7,8 +7,12 @@
 
 import Foundation
 
-struct Application {
+struct Application: Codable, Equatable {
     let name: String
     let sponsorStatus: Status
     let prStatus: Status
+    
+    static func == (lhs: Application, rhs: Application) -> Bool {
+        lhs.name == rhs.name && lhs.sponsorStatus == rhs.sponsorStatus && lhs.prStatus == rhs.prStatus
+    }
 }

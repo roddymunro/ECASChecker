@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Status {
+struct Status: Codable, Equatable {
     let status: String
     var endpoint: String? = nil
+    
+    static func == (lhs: Status, rhs: Status) -> Bool {
+        return lhs.status == rhs.status
+    }
 }
